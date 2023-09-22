@@ -1,0 +1,56 @@
+name: learnify_test
+description: A new Flutter project.
+ 
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+ 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+ 
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  flutter_screenutil: ^5.5.3+2
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.7
+  phone_form_field: ^8.1.0
+  intl: ^0.18.0
+  pinput: ^3.0.1
+  flash: ^2.0.3+2
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+   
+  flutter_lints: ^2.0.0
+
+ 
+flutter:
+ 
+  uses-material-design: true
+
+  fonts:
+  - family: EuclidCircularB
+    fonts:
+      - asset: assets/fonts/Euclid/Euclid-Circular-B-Regular.ttf
+      - asset: assets/fonts/Euclid/Euclid-Circular-B-Bold.ttf
+        weight: 700
+      - asset: assets/fonts/Euclid/Euclid-Circular-B-Medium.ttf
+        weight: 500
+      - asset: assets/fonts/Euclid/Euclid-Circular-B-SemiBold.ttf
+        weight: 600 
+
+
+  assets:
+  - assets/images/
+
+ 
